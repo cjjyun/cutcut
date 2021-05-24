@@ -1,4 +1,125 @@
-.myth {
+html {
+	margin-left: 140px;
+	margin-right: 140px; 
+}
+
+/*大標題*/
+#myth {
 	font-family: "Helvetica";
-	font-size: 48px;
+	font-size: 56px;
+	padding: 0 0;
+	margin: 140px 0;
+	text-align: center;
+}
+
+/*正文*/
+#content img {
+	justify-content: right;
+}
+
+/*第一迷思*/
+#first {
+	margin-top: 30px;
+}
+
+#situation1 {
+	display: flex;
+	align-items: center;
+	padding: 0 0;
+	justify-content: left;
+}
+
+#situation1 a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #000;
+}
+
+#situation1 p {
+	color: #787D7B;
+}
+
+/*第二迷思*/
+#second {
+	margin-top: 30px;
+}
+
+
+#situation2 {
+	display: flex;
+	align-items: center;
+	padding: 0 0;
+}
+
+#situation2 a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #000;
+}
+
+#situation2 p {
+	color: #787D7B;
+}
+
+/*第三迷思*/
+#third {
+	margin-top: 30px;
+}
+
+#situation3 {
+	display: flex;
+	align-items: center;
+	padding: 0 0;
+}
+
+#situation3 a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #000;
+}
+
+#situation3 p {
+	color: #787D7B;
+}
+
+/*第四迷思*/
+#fourth {
+	margin-top: 30px;
+}
+
+#situation4 {
+	display: flex;
+	align-items: center;
+	padding: 0 0;
+}
+
+#situation4 a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #000;
+}
+
+#situation4 p {
+	color: #787D7B;
+}
+
+/*第五迷思*/
+#fifth {
+	margin-top: 30px;
+}
+
+#situation5 {
+	display: flex;
+	align-items: center;
+	padding: 0 0;
+}
+
+#situation5 a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #000;
+}
+
+#situation5 p {
+	color: #787D7B;
 }
