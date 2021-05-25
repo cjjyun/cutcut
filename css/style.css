@@ -8,7 +8,7 @@ html {
 	font-family: "Helvetica";
 	font-size: 56px;
 	padding: 0 0;
-	margin: 140px 0;
+	margin: 180px 0;
 	text-align: center;
 }
 
@@ -18,10 +18,6 @@ html {
 }
 
 /*first myth*/
-#first {
-	margin-top: 50px;
-}
-
 #situation1 {
 	padding: 27.5px 0;
 }
@@ -53,10 +49,12 @@ html {
 	color: #787D7B;
 }
 
-.outer1 a {
-	text-decoration: none;
+.outer1 input {
+	border: none;
+	background-color: #EFF1FB;
 	font-size: 16px;
-	color: #787D7B;
+	font-weight: 550;
+	color: #686868;
 }
 
 .ref1 p {
@@ -98,13 +96,15 @@ html {
 .outer2 {
 	margin-bottom: 0px;
 	font-size: 16px;
-	color: #787D7B;
+	color: #3A8FB7;
 }
 
-.outer2 a {
-	text-decoration: none;
+.outer2 input {
+	border: none;
+	background-color: #EFF1FB;
 	font-size: 16px;
-	color: #787D7B;
+	font-weight: 550;
+	color: #686868;
 }
 
 .ref2 p {
@@ -149,10 +149,12 @@ html {
 	color: #787D7B;
 }
 
-.outer3 a {
-	text-decoration: none;
+.outer3 input {
+	border: none;
+	background-color: #EFF1FB;
 	font-size: 16px;
-	color: #787D7B;
+	font-weight: 550;
+	color: #686868;
 }
 
 .ref3 p {
@@ -197,10 +199,12 @@ html {
 	color: #787D7B;
 }
 
-.outer4 a {
-	text-decoration: none;
+.outer4 input {
+	border: none;
+	background-color: #EFF1FB;
 	font-size: 16px;
-	color: #787D7B;
+	font-weight: 550;
+	color: #686868;
 }
 
 .ref4 p {
