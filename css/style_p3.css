@@ -1,7 +1,12 @@
 html {
-	margin-left: 140px;
-	margin-right: 140px;
-	background-color: #F7F5F3;
+	width:100%;
+	overflow-x:hidden;
+}
+
+@font-face {
+  font-family: FakePearl-Regular;
+  src: url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2) format("woff2")
+  , url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff) format("woff");
 }
 
 /* 小屏幕（平板，大于等于 768px） */
@@ -66,13 +71,19 @@ html {
 }
 
 .navbar-nav {
-	margin-left: 650px;
+	margin-left: 510px;
+}
+
+#content {
+	margin-left: 140px;
+	margin-right: 140px;
 }
 
 /*topic*/
 .background {
-	background-color: #F7F5F3;
 	padding-bottom: 100px;
+	padding-right: 0px;
+	margin-right: 0px;
 }
 
 #myth {
@@ -80,12 +91,12 @@ html {
 	padding-bottom: 0px;
 	text-align: center;
 	margin-bottom: 0px;
+	padding-right: 0px;
 }
 
 #myth img {
-	float: right;
 	padding-top: 40px;
-	background-color: #F7F5F3;
+	float: right;
 }
 
 #leftcover img {
@@ -101,17 +112,13 @@ html {
  }
 
 #cover {
-	font-family: "Georgia";
+	font-family: FakePearl-Regular;
 	position: absolute;
 	padding-top: 135px;
-	padding-left: 15px;
+	padding-left: 80px;
 }
 
 /*content*/
-#content {
-	background-color: #F7F5F3;
-}
-
 #content img {
 	justify-content: right;
 }
@@ -125,6 +132,10 @@ html {
 	justify-content: left;
 }
 
+mark.green {
+	background:linear-gradient(transparent 40%, #E9F2C7 100%,transparent 70%);	
+    padding: 0px 1px;
+}
 
 .topic1 p {
 	color: #787D7B;
@@ -149,12 +160,6 @@ html {
 	color: #686868;
 }
 
-.ref1 p {
-	font-size: 15px;
-	color: #787D7B;
-	margin-bottom: 0px;
-}
-
 /*second myth*/
 #second {
 	margin-top: 60px;
@@ -165,6 +170,11 @@ html {
 	align-items: center;
 	padding: 0 0;
 	justify-content: left;
+}
+
+mark.orange {
+	background:linear-gradient(transparent 40%, #EFDED3 100%,transparent 70%);	
+    padding: 0px 1px;
 }
 
 .topic2 p {
@@ -189,12 +199,6 @@ html {
 	color: #686868;
 }
 
-.ref2 p {
-	font-size: 15px;
-	color: #787D7B;
-	margin-bottom: 0px;
-}
-
 /*third myth*/
 #third {
 	margin-top: 60px;
@@ -205,6 +209,11 @@ html {
 	align-items: center;
 	padding: 0 0;
 	justify-content: left;
+}
+
+mark.yellow {
+	background:linear-gradient(transparent 40%, #E5DBBA 100%,transparent 70%);	
+    padding: 0px 1px;
 }
 
 .topic3 p {
@@ -218,7 +227,6 @@ html {
 .outer3 {
 	margin-bottom: 0px;
 	font-size: 16px;
-	color: #787D7B;
 }
 
 .outer3 input {
@@ -227,12 +235,6 @@ html {
 	font-size: 15px;
 	font-weight: 550;
 	color: #686868;
-}
-
-.ref3 p {
-	font-size: 15px;
-	color: #787D7B;
-	margin-bottom: 0px;
 }
 
 /*fourth myth*/
@@ -247,6 +249,11 @@ html {
 	justify-content: left;
 }
 
+mark.pink {
+	background:linear-gradient(transparent 40%, #FBE3EE 100%,transparent 10%);	
+    padding: 0px 1px;
+}
+
 .topic4 p {
 	color: #787D7B;
 }
@@ -258,7 +265,6 @@ html {
 .outer4 {
 	margin-bottom: 0px;
 	font-size: 16px;
-	color: #787D7B;
 }
 
 .outer4 input {
@@ -267,12 +273,6 @@ html {
 	font-size: 15px;
 	font-weight: 550;
 	color: #686868;
-}
-
-.ref4 p {
-	font-size: 15px;
-	color: #787D7B;
-	margin-bottom: 0px;
 }
 
 /*more myth*/
