@@ -85,8 +85,13 @@ html {
 	padding-bottom: 100px;
 	padding-right: 0px;
 	margin-right: 0px;
-	background-color: #FEF5CB;
-	padding-bottom: 40px;
+	padding-bottom: 80px;
+	background-image: 
+		linear-gradient(
+			to right,
+			#FEF5CB 70%,
+			#fff 30%
+			)
 }
 
 #myth {
