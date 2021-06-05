@@ -85,6 +85,8 @@ html {
 	padding-bottom: 100px;
 	padding-right: 0px;
 	margin-right: 0px;
+	background-color: #FEF5CB;
+	padding-bottom: 40px;
 }
 
 #myth {
@@ -116,7 +118,7 @@ html {
 	font-family: FakePearl-Regular;
 	position: absolute;
 	padding-top: 135px;
-	padding-left: 80px;
+	padding-left: 130px;
 }
 
 /*content*/
