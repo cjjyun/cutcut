@@ -135,8 +135,8 @@ html {
 }
 
 mark.green {
-	background:linear-gradient(transparent 40%, #E9F2C7 100%,transparent 70%);	
-    padding: 0px 1px;
+	background: linear-gradient(transparent 40%,#E9F2C7 40%, #E9F2C7 90%,transparent 95%);	
+    padding: 2px 1px;
 }
 
 .topic1 p {
@@ -176,8 +176,8 @@ mark.green {
 }
 
 mark.orange {
-	background:linear-gradient(transparent 40%, #EFDED3 100%,transparent 70%);	
-    padding: 0px 1px;
+	background: linear-gradient(transparent 40%,#EFDED3 40%, #EFDED3 90%,transparent 95%);	
+    padding: 2px 1px;
 }
 
 .topic2 p {
@@ -218,8 +218,8 @@ mark.orange {
 }
 
 mark.yellow {
-	background:linear-gradient(transparent 40%, #E5DBBA 100%,transparent 70%);	
-    padding: 0px 1px;
+	background: linear-gradient(transparent 40%,#E5DBBA 40%, #E5DBBA 90%,transparent 95%);	
+	padding: 2px 1px;
 }
 
 .topic3 p {
@@ -258,8 +258,8 @@ mark.yellow {
 }
 
 mark.pink {
-	background:linear-gradient(transparent 40%, #FBE3EE 100%,transparent 10%);	
-    padding: 0px 1px;
+	background: linear-gradient(transparent 40%,#FBE3EE 40%, #FBE3EE 90%,transparent 95%);	
+    padding: 2px 1px;
 }
 
 .topic4 p {
